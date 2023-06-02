@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{AhuRow-08}
+S.~Ahuja and C.~W. Rowley.
+\newblock Low-dimensional models for feedback stabilization of unstable steady
+  states.
+\newblock AIAA Paper 2008-553, 46th AIAA Aerospace Sciences Meeting and
+  Exhibit, January 2008.
+
+\bibitem{ColTai-07}
+T.~Colonius and K.~Taira.
+\newblock A fast immersed boundary method using a nullspace approach and
+  multi-domain far-field boundary conditions.
+\newblock {\em Comp.\ Meth.\ Appl.\ Mech.\ Eng.}, 197(25-28):2131--46, 2008.
+
+\bibitem{Peyret:2002}
+R.~Peyret.
+\newblock {\em Spectral Methods for Incompressible Viscous Flow}, volume 148 of
+  {\em Applied Mathematical Sciences}.
+\newblock Springer-Verlag, 2002.
+
+\bibitem{TaiCol-06}
+K.~Taira and T.~Colonius.
+\newblock The immersed boundary method: A projection approach.
+\newblock {\em J.\ Comput.\ Phys.}, 225(2):2118--2137, August 2007.
+
+\end{thebibliography}

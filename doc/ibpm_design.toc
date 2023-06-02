@@ -1,0 +1,83 @@
+\contentsline {section}{\numberline {1}Purpose of this document}{1}{section.1}%
+\contentsline {section}{\numberline {2}History and design approach}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Previously used code and its limitations}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Overview of design approach}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}What the code does}{3}{subsection.2.3}%
+\contentsline {paragraph}{Immersed boundary method}{4}{section*.2}%
+\contentsline {paragraph}{Time discretization}{4}{section*.3}%
+\contentsline {paragraph}{Projection method}{5}{section*.4}%
+\contentsline {subsection}{\numberline {2.4}Multi-domain method}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Classes}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}TimeStepper}{6}{subsection.3.1}%
+\contentsline {paragraph}{Interactions}{7}{section*.5}%
+\contentsline {paragraph}{Interface}{7}{section*.6}%
+\contentsline {paragraph}{Protected}{8}{section*.7}%
+\contentsline {paragraph}{Design choices}{8}{section*.8}%
+\contentsline {paragraph}{Implementation}{8}{section*.9}%
+\contentsline {subsubsection}{\numberline {3.1.1}Euler}{8}{subsubsection.3.1.1}%
+\contentsline {paragraph}{Interface}{8}{section*.10}%
+\contentsline {subsubsection}{\numberline {3.1.2}AdamsBashforth}{9}{subsubsection.3.1.2}%
+\contentsline {paragraph}{Interface}{9}{section*.11}%
+\contentsline {paragraph}{Implementation}{9}{section*.12}%
+\contentsline {subsubsection}{\numberline {3.1.3}RungeKutta2}{10}{subsubsection.3.1.3}%
+\contentsline {paragraph}{Interface}{10}{section*.13}%
+\contentsline {subsubsection}{\numberline {3.1.4}RungeKutta3}{10}{subsubsection.3.1.4}%
+\contentsline {paragraph}{Interface}{11}{section*.14}%
+\contentsline {subsection}{\numberline {3.2}ProjectionSolver}{11}{subsection.3.2}%
+\contentsline {paragraph}{Collaborations}{11}{section*.15}%
+\contentsline {paragraph}{Interface}{11}{section*.16}%
+\contentsline {paragraph}{Protected methods}{11}{section*.17}%
+\contentsline {subsubsection}{\numberline {3.2.1}CholeskySolver}{12}{subsubsection.3.2.1}%
+\contentsline {paragraph}{Interface}{12}{section*.18}%
+\contentsline {paragraph}{Design alternatives}{12}{section*.19}%
+\contentsline {paragraph}{Implementation}{12}{section*.20}%
+\contentsline {subsubsection}{\numberline {3.2.2}ConjugateGradientSolver}{13}{subsubsection.3.2.2}%
+\contentsline {paragraph}{Interface}{13}{section*.21}%
+\contentsline {subsection}{\numberline {3.3}NavierStokesModel}{13}{subsection.3.3}%
+\contentsline {paragraph}{Collaborations}{13}{section*.22}%
+\contentsline {paragraph}{Interface}{13}{section*.23}%
+\contentsline {paragraph}{Protected}{14}{section*.24}%
+\contentsline {paragraph}{Design notes}{14}{section*.25}%
+\contentsline {subsubsection}{\numberline {3.3.1}NonlinearNavierStokes}{14}{subsubsection.3.3.1}%
+\contentsline {paragraph}{Interface}{15}{section*.26}%
+\contentsline {subsubsection}{\numberline {3.3.2}LinearNavierStokes}{15}{subsubsection.3.3.2}%
+\contentsline {paragraph}{Interface}{15}{section*.27}%
+\contentsline {subsubsection}{\numberline {3.3.3}AdjointNavierStokes}{15}{subsubsection.3.3.3}%
+\contentsline {paragraph}{Interface}{15}{section*.28}%
+\contentsline {subsection}{\numberline {3.4}Regularizer}{15}{subsection.3.4}%
+\contentsline {paragraph}{Interface}{16}{section*.29}%
+\contentsline {paragraph}{Collaborations}{16}{section*.30}%
+\contentsline {paragraph}{Implementation}{16}{section*.31}%
+\contentsline {subsection}{\numberline {3.5}Grid}{16}{subsection.3.5}%
+\contentsline {paragraph}{Interface}{17}{section*.32}%
+\contentsline {subsection}{\numberline {3.6}State}{17}{subsection.3.6}%
+\contentsline {paragraph}{Interface}{18}{section*.33}%
+\contentsline {paragraph}{Public data}{18}{section*.34}%
+\contentsline {paragraph}{Implementation}{18}{section*.35}%
+\contentsline {subsection}{\numberline {3.7}Scalar}{18}{subsection.3.7}%
+\contentsline {paragraph}{Interface}{18}{section*.36}%
+\contentsline {paragraph}{Implementation}{19}{section*.37}%
+\contentsline {subsection}{\numberline {3.8}Flux}{20}{subsection.3.8}%
+\contentsline {paragraph}{Interface}{20}{section*.38}%
+\contentsline {subsection}{\numberline {3.9}BoundaryVector}{21}{subsection.3.9}%
+\contentsline {paragraph}{Interface}{21}{section*.39}%
+\contentsline {paragraph}{Routines}{22}{section*.40}%
+\contentsline {paragraph}{Design notes}{22}{section*.41}%
+\contentsline {subsection}{\numberline {3.10}Probe}{22}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Geometry}{22}{subsection.3.11}%
+\contentsline {paragraph}{Interface}{22}{section*.42}%
+\contentsline {paragraph}{Design notes}{23}{section*.43}%
+\contentsline {paragraph}{Implementation}{24}{section*.44}%
+\contentsline {subsection}{\numberline {3.12}RigidBody}{24}{subsection.3.12}%
+\contentsline {paragraph}{Interface}{24}{section*.45}%
+\contentsline {paragraph}{File format}{25}{section*.46}%
+\contentsline {paragraph}{Implementation}{25}{section*.47}%
+\contentsline {subsection}{\numberline {3.13}Motion}{25}{subsection.3.13}%
+\contentsline {paragraph}{Interface}{25}{section*.48}%
+\contentsline {paragraph}{Design notes}{26}{section*.49}%
+\contentsline {subsubsection}{\numberline {3.13.1}FixedPosition}{26}{subsubsection.3.13.1}%
+\contentsline {paragraph}{Interface}{26}{section*.50}%
+\contentsline {subsection}{\numberline {3.14}SE2}{26}{subsection.3.14}%
+\contentsline {paragraph}{Interface}{26}{section*.51}%
+\contentsline {subsection}{\numberline {3.15}TangentSE2}{27}{subsection.3.15}%
+\contentsline {paragraph}{Interface}{27}{section*.52}%
