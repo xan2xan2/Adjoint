@@ -3,10 +3,10 @@
 CXX = mpiCC
 
 # flags for compiling with optimization
-#CXXFLAGS = -Wall -g -Ofast -funroll-loops -DNDEBUG
+CXXFLAGS = -Wall -g -Ofast -funroll-loops -DNDEBUG
 
 # for debugging, uncomment the following line
-CXXFLAGS = -Wall -g
+#CXXFLAGS = -Wall -g
 
 # for debugging, uncomment the following line
 # CXXFLAGS = -g
